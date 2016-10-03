@@ -11,13 +11,11 @@ public class ex01_105021062 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner scn = new Scanner(System.in);
-		int v1 =scn.nextInt();
-		int v2=~(v1);
-		System.out.println(v1);
-		System.out.println(Integer.toBinaryString(v1));
-		System.out.println(v2);
-		System.out.println(Integer.toBinaryString(v2));
-		
+		String str=scn.next();
+		char[]data=str.toCharArray(); 
+		for (int i = data.length-1;i>=0;i--){
+			System.out.print(data[i]);
+		}	
 
 	}
 
